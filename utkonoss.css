@@ -1,0 +1,475 @@
+body {
+    margin: 0;
+    /*min-height: 4000px;*/
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: 300;
+}
+
+/* Шапка */
+.header-main-block {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px;
+    background: rgb(247, 247, 247);
+}
+
+.tel-link-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-button {
+    display: flex;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: 300;
+    padding: 10px;
+    width: 150px;
+    background: white;
+    border: 1px solid darkgrey;
+    border-radius: 7px;
+    text-align: center;
+    height: 40px;
+}
+
+.tel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    box-sizing: border-box;
+    width: 250px;
+}
+
+.header-space {
+    padding-left: 8px;
+}
+
+/* Баннер */
+.banner {
+    display: flex;
+    flex-direction: row;
+    background: rgb(255, 238, 0);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+
+.banner-right {
+    padding-left: 250px;
+    margin-top: 50px;
+}
+
+.banner-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.banner-list-item {
+    display: flex;
+    align-items: flex-start;
+    font-size: 24px;
+    margin-bottom: 15px;
+    padding-right: 20px;
+    text-align: left;
+
+}
+
+.banner-list-item-text {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50%;
+    background: #f1f1f080;
+}
+
+.banner-button {
+    background: rgb(0, 212, 46);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: 300;
+    border-radius: 7px;
+    border: none;
+    width: 270px;
+    height: 70px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.banner-link {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(13, 148, 81);
+    margin-top: 20px;
+}
+
+.banner-space {
+    padding-left: 15px;
+}
+
+/* Блок после баннера */
+.main-privilege {
+    padding-left: 50px;
+    padding-right: 60px;
+    box-sizing: border-box;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.main-privilege-h2 {
+    padding-left: 100px;
+    margin-top: 0;
+    box-sizing: border-box;
+}
+
+.main-privilege-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.main-privilege-list-item {
+    display: flex;
+    width: 33%;
+}
+
+.main-privilege-list-first {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0 30px 150px;
+    box-sizing: border-box;
+}
+
+.img-privilege {
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+/* Статистика */
+
+.container-statistics {
+    padding: 20px;
+    padding-left: 70px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    margin-left: 180px;
+    margin-right: 180px;
+    background: rgba(228, 228, 228, 0.5);
+    border-radius: 7px;
+}
+
+.container-statistics-h2 {
+    padding-right: 180px;
+    margin-top: 0;
+    box-sizing: border-box;
+}
+
+.container-statistics-main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+
+.container-statistics-main-1 {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.cnt-stat-text {
+    display: block;
+    box-sizing: border-box;
+}
+
+.cnt-stat-text-one {
+    font-size: 46px;
+    line-height: 25px;
+    margin-bottom: 35px;
+    padding-left: 25px;
+    font-weight: 800;
+}
+
+.cnt-stat-text-two {
+    margin-bottom: 4px;
+    font-size: 12px;
+    line-height: 15px;
+    padding-left: 25px;
+}
+
+.cnt-stat-text-three {
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 700;
+    padding-left: 25px;
+}
+
+/*Правила программы лояльности*/
+.container-statistics-footer {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.img-container {
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.container-statistics-link {
+    text-decoration: none;
+}
+
+.container-statistics-text {
+    color: seagreen;
+    font-weight: 700;
+}
+
+/*Доставка оплата*/
+.container-delivery {
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    margin-left: 180px;
+    margin-right: 180px;
+    background: rgb(255, 255, 255);
+}
+
+.container-delivery-main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cnt-delivery {
+    padding-right: 150px;
+    padding-left: 100px;
+}
+
+.cnt-delivery-list {
+    display: block;
+    line-height: 40px;
+    font-size: 16px;
+    padding-left: 20px;
+    color: rgb(241, 227, 25)
+}
+
+.cnt-delivery-list span {
+    color: black;
+}
+
+.container-delivery-button {
+    text-align: center;
+    padding-top: 40px;
+}
+
+/*Акции*/
+.container-stock {
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    margin-left: 180px;
+    margin-right: 180px;
+    background: rgb(255, 255, 255);
+}
+
+.container-stock-h2 {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 40px 20px 45px;
+}
+
+.container-stock-button {
+    border-radius: 7px;
+    text-align: center;
+    height: 35px;
+    width: 110px;
+    border: 1px solid rgba(196, 195, 195, 0.5);
+    background: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: 500;
+}
+
+.container-stock-main {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.cnt-stock-img-game {
+    border-radius: 10px;
+}
+
+.cnt-stock-img-forcar {
+    border-radius: 10px;
+    margin-right: 65px;
+    margin-left: 107px;
+}
+
+/* С кем мы работаем*/
+
+.container-whowork {
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    margin-left: 180px;
+    margin-right: 180px;
+    background: rgb(255, 255, 255);
+}
+
+.container-whowork-h2 {
+    padding-left: 50px;
+}
+
+.container-whowork-main {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+
+}
+
+.container-whowork-main-part {
+    padding: 40px 50px 40px 50px;
+    margin-left: 40px;
+    margin-right: 0;
+    margin-bottom: 20px;
+    background: #ece4e491;
+    border-radius: 7px;
+}
+
+.container-whowork-text-one {
+    display: block;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-whowork-text-two {
+    display: block;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+/*До подвала*/
+.container-before-footer {
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    margin-left: 180px;
+    margin-right: 180px;
+    background: rgb(255, 255, 255);
+}
+
+.container-before-footer-text {
+    margin-bottom: 40px;
+}
+
+/*Подвал*/
+footer {
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    background: #282a30;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.footer-up {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 20px 50px;
+}
+
+.footer-foot {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0 50px;
+    border-top: 1px solid rgba(204, 202, 202, 0.329);
+}
+
+.footer-button {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: 300;
+    padding: 10px;
+    text-align: center;
+    width: 130px;
+    background: #282a30;
+    border: 1px solid darkgrey;
+    border-radius: 7px;
+    height: 40px;
+}
+
+.footer-button-text {
+    color: white;
+}
+
+.footer-button-link {
+    text-decoration: none;
+}
+
+.footer-text-del {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(247, 247, 247);
+}
+
+.footer-text--del-link {
+    text-decoration: none;
+}
+
+.footer-button-link:hover {
+color:rgb(255, 238, 0);
+}
+
+.footer-text--del-contact {
+    font-size: 20px;
+    color: rgb(255, 238, 0);
+}
+
+.footer-text-del-var {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(255, 238, 0);
+}
+
+.foot-bottom{
+    padding: 15px 250px 0 0;
+}
+
+.footer-text-dl{
+    padding-top: 10px;
+}
+
+.footer-text-contacts{
+    padding-right: 90px;
+    line-height: 20px;
+}
+
+.footer-text--del-cont-tel{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.footer-text--del-cont-mail{
+    padding-right: 270px;
+}
